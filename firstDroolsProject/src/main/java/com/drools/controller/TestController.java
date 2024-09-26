@@ -10,7 +10,7 @@ public class TestController {
 
      @GetMapping(value = "/testme",produces = "application/json")
      public String testMethod(){
-         return "Hello I am running";
+         return "Hello I am running and its now synced with github";
      }
 
 
